@@ -1,0 +1,45 @@
+@import "normalize.css";
+@import './styles/responsive/SubPage.css';
+@import './styles/resets/reset.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: spotify-circular, spotify-circular-cyrillic,
+    spotify-circular-arabic, spotify-circular-hebrew, "Helvetica Neue",
+    helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic",
+    sans-serif, Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* properties */
+:root {
+  --content-width: 2227px;
+  --content-padding: 32px ;
+
+  --topNavigationBar-height: 64px;
+  --result-optionBar-height: 50px;
+
+  --sub-page-head-image-height: calc(var(--topNavigationBar-height) + var( --sub-page-head-image-size) + 24px);
+
+  --column-counts: 0;
+  --col-one-width: 220px;
+
+  --col-one_track-image_height: 0;
+  --col-one_collapse_display: none;
+  --row-two_track-image_display: block;
+}
+
+/* dark theme */
+.dark-theme {
+  --bg-col-one: #000000;
+
+  --text-primary: #fff;
+  --text-secondary: #b3b3b3;
+}

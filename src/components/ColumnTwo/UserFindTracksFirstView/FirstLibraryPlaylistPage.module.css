@@ -1,0 +1,7 @@
+.wrapper {
+  max-width: var(--content-width);
+  height: 100%;
+  
+  display: grid;
+  place-content: center;
+}

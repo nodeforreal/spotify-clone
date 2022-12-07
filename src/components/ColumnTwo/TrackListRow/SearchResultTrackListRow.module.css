@@ -1,0 +1,5 @@
+.gridColumns{
+  margin: 0;
+  padding: 8px;
+  grid-template-columns:1.7fr 100px;
+}

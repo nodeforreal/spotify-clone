@@ -1,0 +1,55 @@
+.volumeButton svg {
+  width: 16px;
+  height: 16px;
+  fill: #b3b3b3;
+}
+
+.volumeButton:hover svg {
+  fill: #fff;
+}
+
+.volumeButton:hover + .audioControlTrack .audioLevelBar  {
+  background-color: #1ed760;
+}
+
+.volumeButton:hover +.audioControlTrack .dragThumbCircle {
+  display: block;
+}
+
+.audioControlTrack {
+  width: 93px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #535353;
+
+  position: relative;
+}
+
+.audioLevelBar {
+  width: 20%;
+  height: 100%;
+  border-radius: 2px;
+  background-color: #b3b3b3;
+}
+
+.audioControlTrack:hover .audioLevelBar {
+  background-color: #1ed760;
+}
+
+.dragThumbCircle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+
+  display: none;
+
+  position: absolute;
+  top: -4px;
+  left: 20%;
+  transform: translateX(-50%);
+}
+
+.audioControlTrack:hover .dragThumbCircle {
+  display: block;
+}

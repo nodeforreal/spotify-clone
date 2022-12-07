@@ -1,0 +1,8 @@
+.wrapper{
+  padding:0 var(--content-padding ) 54px;
+}
+
+.tuneIcon svg{
+  width: 42px;
+  height: 42px;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #101010;
+}
+
+.wrapper svg {
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+}
+
+.wrapper:disabled {
+  background-color: rgb(8, 8, 8, 0.3);
+  cursor: no-drop;
+}
+
+.wrapper:disabled svg {
+  fill: rgba(255, 255, 255, 0.5);
+}

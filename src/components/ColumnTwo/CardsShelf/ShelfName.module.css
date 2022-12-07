@@ -1,0 +1,49 @@
+.wrapper{
+  margin-bottom: 21px;
+}
+
+
+
+.titleWrapper {
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleDesc{
+  font-size: 14px;
+  font-weight: 500;
+  color: #a7a7a7;
+}
+
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1.28px;
+  color: #fff;
+}
+
+.title a{
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1.28px;
+  color: #fff;
+}
+
+.seeMore a{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #a7a7a7;
+}
+
+.seeMore a:hover {
+  text-decoration: underline;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}

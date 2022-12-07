@@ -1,0 +1,39 @@
+.wrapper {
+  margin: var(--topNavigationBar-height) 0 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 48px;
+}
+
+.secOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info{
+  text-align: center;
+}
+
+.icon svg {
+  color: #fff;
+  fill: #fff;
+  width: 60px;
+  height: 60px;
+}
+
+.info h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -1.28px;
+  color: #fff;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}

@@ -1,0 +1,146 @@
+/* sectionOne */
+.create-playlist-sectionOne{
+  grid-template-columns: 16px 1.7fr 1.5fr 1fr 1fr 100px !important;
+}
+
+.playlist-sectionOne{
+  grid-template-columns: 16px 1.7fr 1.5fr 1fr 100px !important;
+}
+
+.daily-mix-sectionOne{
+  grid-template-columns: 16px 1.7fr 1.5fr  100px !important;
+}
+
+.album-sectionOne{
+  grid-template-columns: 16px 1.7fr 100px !important;
+}
+
+/* display: none; */
+/* playlists */
+.playlist-relDate{
+  display: none !important;
+}
+
+/* daily mix */
+.daily-mix-relDate{
+  display: none !important;
+}
+
+.daily-mix-dateAdded{
+  display: none !important;
+}
+
+/* album */
+.album-trackType{
+  display: none !important;
+}
+
+.album-relDate{
+  display: none !important;
+}
+
+.album-dateAdded{
+  display: none !important;
+}
+
+/* create playlist */
+@media screen and (max-width: 1286px) {
+  .create-playlist-dateAdded {
+    display: none !important;
+  }
+
+  .create-playlist-sectionOne {
+    grid-template-columns: 30px 1.7fr 1.5fr 1fr 100px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .create-playlist-relDate {
+    display: none;
+  }
+
+  .playlist-dateAdded{
+    display: none !important;
+  }
+
+  .playlist-sectionOne {
+    grid-template-columns: 30px 1.7fr 1fr 100px !important;
+  }
+  
+  .create-playlist-sectionOne {
+    grid-template-columns: 30px 1.7fr 1fr 100px !important;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  .playlist-sectionOne {
+    grid-template-columns: 30px 1fr 100px !important;
+  }
+
+  .playlist-trackType{
+    display: none !important;
+  }
+
+  .create-playlist-trackType {
+    display: none !important;
+  }
+
+  .create-playlist-sectionOne {
+    grid-template-columns: 30px 1fr 100px !important;
+  }
+
+  .daily-mix-trackType{
+    display: none !important;
+  }
+  .daily-mix-sectionOne{
+   grid-template-columns: 30px 1fr 100px !important ;
+  }
+}
+
+.track-list-main-bg{
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.track-list-lighten-bg{
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.track-list-lighten-bg .track-list__track-type-icon{
+  display: none;
+}
+
+.track-list-lighten-bg .track-list__index-number{
+  display: none;
+}
+
+.track-list-main-bg .track-list__index-number{
+  display: none;
+}
+
+.track-list-lighten-bg .track-list__play-btn{
+  display: grid;
+}
+
+.track-list-main-bg .track-list__play-btn{
+  display: grid;
+}
+
+.track-list-lighten-bg .track-list__artist-item a{
+  color: #fff ;
+}
+
+.track-list-lighten-bg .track-list__track-type a{
+  color: #fff ;
+}
+
+.track-list-lighten-bg .track-list__like-btn{
+  display: grid;
+}
+
+.track-list-lighten-bg .track-list__option-btn{
+  display: grid;
+}
+
+
+

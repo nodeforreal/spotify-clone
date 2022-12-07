@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.playBtn {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+}
+
+.playBtn svg {
+  width: 14px;
+  height: 14px;
+  fill: #000000;
+}
+
+.playBtn:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,19 @@
+.btn{
+  padding: 7px 14px;
+  border: 1.2px rgba(255, 255, 255, 0.5) solid ;
+  border-radius: 4px;
+
+  font-size: 12px;
+  font-weight: 800 ;
+  color: #fff;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  border: 1.2px #fff solid ;
+}
+
+.followingState{
+  border: 1.2px #fff solid ;
+}

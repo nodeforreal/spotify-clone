@@ -1,0 +1,26 @@
+.grid{
+  display: grid;
+  grid-template-columns: 30px 2fr 1fr 100px;
+}
+
+.title{
+  margin: 0 var(--content-padding) 16px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  color: #fff;
+}
+
+.toggleBtn{
+  margin: 16px var(--content-padding) 16px;
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  color: #b3b3b3;
+  text-transform: uppercase;
+}
+
+.toggleBtn:hover{
+  color: #fff;
+}

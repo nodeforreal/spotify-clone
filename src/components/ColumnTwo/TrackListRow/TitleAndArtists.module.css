@@ -1,0 +1,65 @@
+.wrapper{
+  display: flex;
+  column-gap: 16px;
+}
+
+.trackImage{
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.sectionTwo{
+  display: grid;
+  grid-template-columns: minmax(0,1fr);
+  align-items: center;
+}
+
+.title{
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2em;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  position: relative;
+  z-index: 1;
+}
+
+.artistsList{
+  font-weight: 700;
+  color: var(--trackList-text-hover);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.episodeTitle{
+  color: var(--trackList-text-hover);
+  
+  position: relative;
+  z-index: 1;
+}
+
+.artistItem a{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+
+  color: var(--trackList-text-hover);
+
+  position: relative;
+  z-index: 1;
+}
+
+.artistItem a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+

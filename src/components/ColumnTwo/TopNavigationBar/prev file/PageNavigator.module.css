@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.navigatorButton {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #181818;
+
+  display: grid;
+  place-content: center;
+}
+
+.navigatorButton svg {
+  fill: rgb(255, 255, 255, 0.8);
+}
+.navigatorButton:hover {
+  cursor: pointer;
+}
+
+/* disabled button */
+
+.buttonDisabled {
+  background: rgb(0, 0, 0, 0.3);
+}
+
+.buttonDisabled svg {
+  fill: rgb(255, 255, 255, 0.3);
+}
+
+.buttonDisabled:hover {
+  cursor: not-allowed;
+}

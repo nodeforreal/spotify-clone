@@ -1,0 +1,18 @@
+.wrapper {
+  margin: var(--topNavigationBar-height) var(--content-padding) 38px;
+}
+
+.title {
+  margin-bottom: 24px;
+
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  color: #fff;
+  
+  text-transform: capitalize;
+}
+
+.line{
+  margin: 100px 0 80px;
+}

@@ -1,0 +1,63 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+}
+
+.titleSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.episodeTitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  
+  position: relative;
+  z-index: 2;
+}
+
+.episodeTitle:hover {
+  text-decoration: underline;
+}
+
+.showTitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+
+  position: relative;
+  z-index: 2;
+}
+
+.showTitle:hover {
+  text-decoration: underline;
+}
+
+.optionBtnWrapper {
+  width: 26px;
+
+  display: grid;
+  place-items: center;
+}
+
+.optionBtn {
+  display: var(--optionBtn-hover);
+  width: 26px;
+  height: 4px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.optionBtn svg {
+  width: 26px;
+  /* height: 4px; */
+}
+
+.activePlaying{
+  /* color:#1ed760; */
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  width: 424px;
+  height: 220px;
+  padding: 0 18px;
+  border-radius: 8px;
+  background-color: rgb(209, 95, 154);
+  
+  flex-shrink: 0;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.link{
+  width: 100%;
+  height: 100%;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

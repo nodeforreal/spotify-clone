@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secLeft {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.playBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+
+  position: relative;
+  z-index: 2;
+}
+
+.rowInfo {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #b3b3b3;
+  display: flex;
+  column-gap: 4px;
+}
+
+.episodeDuration::before {
+  content: "";
+  display: inline-block;
+  margin: 0 2px 2px;
+
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #b3b3b3;
+}
+.secRight {
+  display: flex;
+  column-gap: 16px;
+}
+
+.linkBtnWrapper {
+  width: 23px;
+}
+
+.linkCopyBtn {
+  display: var(--linkCopyBtn-hover);
+
+  position: relative;
+  z-index: 2;
+}
+.linkCopyBtn svg {
+  width: 23px;
+  height: 23px;
+}
+
+.likeBtnWrapper {
+  width: 23px;
+}
+.likeBtn {
+  width: 23px;
+  position: relative;
+  z-index: 2;
+}
+
+.likeBtn svg {
+  width: 23px;
+  height: 23px;
+}

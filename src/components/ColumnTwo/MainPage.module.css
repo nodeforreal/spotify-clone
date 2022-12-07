@@ -1,0 +1,22 @@
+.wrapper {
+  height: 100%;
+
+  user-select: none;
+  position: relative;
+}
+
+.genreCardsSection{
+  margin: var(--topNavigationBar-height) var(--content-padding) 38px;
+}
+
+.searchResultCardsSection{
+  margin: var(--topNavigationBar-height) var(--content-padding) 38px;
+}
+
+.userPageCardsSection{
+  margin: var(--topNavigationBar-height) var(--content-padding) 38px;
+}
+
+.genreSectionView{
+  margin: var(--topNavigationBar-height) var(--content-padding) 38px;
+}

@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  --hoverMenu: #b3b3b3;
+}
+
+.wrapper:hover {
+  --hoverMenu: #fff;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.active {
+  color: #fff;
+  fill: #fff;
+}
+
+.noActive {
+  color: var(--hoverMenu);
+  fill: var(--hoverMenu);
+}

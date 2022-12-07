@@ -1,0 +1,27 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionWrapper{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.sectionTwo{
+  align-self: center;
+}
+
+.viewToggleBtn span{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.viewToggleBtn svg{
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}

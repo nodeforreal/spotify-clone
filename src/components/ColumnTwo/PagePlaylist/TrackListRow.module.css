@@ -1,0 +1,254 @@
+.wrapper {
+  max-width: var(--content-width);
+ 
+
+  padding: 8px 16px;
+  border-radius: 4px;
+
+  display: grid;
+  grid-template-columns: 16px 1.7fr 1.5fr 1fr 1fr 100px;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+.wrapper:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+/* trackType , artist items */
+.wrapper:hover .trackType a, .artistItem a{
+  color: #fff;
+}
+.wrapper:hover  .artistItem a{
+  color: #fff;
+}
+[aria-selected='true'] .trackType a, .artistItem a{
+  color: #fff;
+}
+
+[aria-selected='true'] .artistItem a{
+  color: #fff;
+}
+
+[aria-selected='true'] .artistItem a{
+  color: #fff;
+}
+
+.wrapper svg {
+  width: 16px;
+  height: 16px;
+}
+
+.index {
+  display: grid;
+  place-content: center;
+}
+
+.index svg{
+  fill: #b3b3b3;
+}
+/* play button */
+.playBtn {
+  display: none;
+}
+
+.wrapper:hover .playBtn {
+  display: grid;
+}
+
+[aria-selected='true']  .playBtn{
+  display: grid;
+}
+
+[aria-selected='true']:hover .playBtn {
+  display: grid;
+}
+
+.wrapper:hover .indexNumber {
+  display: none;
+}
+/* track type icon */
+.trackTypeIcon {
+  display: block;
+}
+
+[aria-selected='true'] .trackTypeIcon {
+  display: none;
+}
+
+.wrapper:hover .trackTypeIcon {
+  display: none;
+}
+
+.indexNumber {
+  display: block;
+}
+
+.playBtn svg{
+  width: 14px;
+  height: 14px;
+  fill: #fff;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: center;
+}
+
+.imgWrapper {
+  width: 40px;
+  height: 40px;
+
+  flex-shrink: 0;
+}
+
+.imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.songTitle span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fff;
+}
+
+.songTitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #fff;
+
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artistList {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #a7a7a7;
+
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.artistItem {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #a7a7a7;
+  text-transform: capitalize;
+}
+
+.artistItem a {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #a7a7a7;
+  text-transform: capitalize;
+}
+
+.artistItem a:hover {
+  text-decoration: underline;
+}
+
+.trackType {
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #a7a7a7;
+
+  align-self: center;
+
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.trackType a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #a7a7a7;
+}
+
+.trackType   a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.duration {
+  display: flex;
+  column-gap: 16px;
+}
+
+.addToLibrary{
+  width: 16px;
+}
+
+.likeBtn{
+  display: none;
+}
+
+.optionBtn{
+  display: none;
+}
+
+.wrapper:hover .optionBtn{
+  display: grid;
+}
+
+.wrapper:hover .likeBtn{
+  display: grid;
+}
+
+[aria-selected = 'true' ] .optionBtn{
+  display: grid;
+}
+
+[aria-selected = 'true' ] .likeBtn{
+  display: grid;
+}
+
+.optionBtn svg{
+  width: 22px;
+  height: 22px;
+}
+
+.relDate,
+.dateAdded {
+  align-self: center;
+
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.relDate,
+.dateAdded,
+.duration,.indexNumber {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #a7a7a7;
+
+  align-items: center;
+}

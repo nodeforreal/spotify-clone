@@ -1,0 +1,26 @@
+.wrapper{
+  margin-top: -12px;
+  color: #a3a3a3;
+
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  position: relative;
+  z-index: 2;
+}
+
+.listItem{
+  font-size: 14px;
+  /* line-height: 16px; */
+  font-weight: 400;
+  color: #a3a3a3;
+}
+
+.text{
+  color: #a3a3a3;
+}
+.text:hover{
+  text-decoration: underline;
+}

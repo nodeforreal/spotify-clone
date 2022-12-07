@@ -1,0 +1,20 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0,1fr);
+ 
+  position: relative;
+}
+
+.contentWrapper{
+  /* background-color: chartreuse; */
+}
+
+.horizontalScroll {
+  overflow-x: scroll;
+}
+
+.verticalScroll {
+  overflow-y: auto;
+}

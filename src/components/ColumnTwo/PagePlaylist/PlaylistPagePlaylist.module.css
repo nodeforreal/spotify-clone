@@ -1,0 +1,27 @@
+.gridColumns{
+  grid-template-columns: [index]30px [title]1.7fr [albumLink]1.5fr [dateAdded]1fr  [others]100px;
+}
+
+.relDate{
+  display: none;
+}
+
+@media screen and (max-width: 1030px) {
+  .dateAdded {
+    display: none;
+  }
+
+  .gridColumns {
+    grid-template-columns: 30px 1.7fr 1.5fr 100px ;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .trackType {
+    display: none ;
+  }
+
+  .gridColumns {
+    grid-template-columns: 30px 1fr 100px ;
+  }
+}

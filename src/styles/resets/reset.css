@@ -1,0 +1,35 @@
+*{
+  user-select: none;
+
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  height: fit-content;
+  border: 0;
+  background-color: transparent;
+
+  display: grid;
+  place-content: center;
+}
+
+scrollBar {
+  display: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+input {
+  border: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+

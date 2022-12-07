@@ -1,0 +1,12 @@
+.icon {
+    padding-right: 8px;
+  fill: #fff;
+  display: grid;
+  place-content: center;
+}
+
+@media screen and (max-width: 1020px) {
+  .icon {
+    display: none;
+  }
+}

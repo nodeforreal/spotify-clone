@@ -1,0 +1,4 @@
+.bodyWrapper{
+  max-width: var(--content-width);
+  background-color: #121212;
+}

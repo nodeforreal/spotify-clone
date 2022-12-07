@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  column-gap: 18px;
+  align-items: center;
+}
+
+.wrapper:hover {
+  --menuHover: #fff;
+  --menuIconBg: brightness(1)
+}
+
+.wrapper {
+  --menuHover: #b2b2b2;
+  --menuIconBg: brightness(.8)
+}

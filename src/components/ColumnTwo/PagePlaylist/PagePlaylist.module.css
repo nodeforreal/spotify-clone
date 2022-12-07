@@ -1,0 +1,13 @@
+.wrapper{
+  margin-bottom: 16px;
+  max-width: var(--content-width);
+  
+  position: relative;
+  z-index: 1;
+}
+
+
+.sectionTwo{
+  margin-top: 16px;
+  padding: 0 var(--content-padding);
+}

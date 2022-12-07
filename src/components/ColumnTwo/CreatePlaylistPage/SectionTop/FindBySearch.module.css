@@ -1,0 +1,13 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title{
+  margin: 30px 0 16px;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  color: #fff;
+}

@@ -1,0 +1,38 @@
+.wrapper{
+  padding: 4px;
+  background-color: #282828;
+  border-radius: 4px;
+  display: none;
+  flex-direction: column;
+
+  position: absolute;
+  top: 120%;
+  right: 0;
+  
+}
+
+/* display drop down menu */
+.active{
+  display: flex;
+}
+
+.menuItem{
+  padding: 12px 12px;
+  border-radius: 2px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 21px;
+  
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+.menuItem:hover{
+  background: rgb(255,255,255,0.08);
+}
+.menuItem svg{
+  fill: #fff;
+}

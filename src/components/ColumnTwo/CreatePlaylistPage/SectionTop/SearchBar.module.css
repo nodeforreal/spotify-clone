@@ -1,0 +1,63 @@
+.wrapper {
+  width: 368px;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255,.1);
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.sectionOne {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  flex-grow: 1;
+}
+
+.sectionTwo {
+  flex-grow: 0;
+}
+
+.searchIcon {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  flex-grow: 0;
+}
+
+.searchIcon svg {
+  width: 18px;
+  height: 18px;
+
+  fill:  rgb(255, 255, 255,.7);
+}
+.closeBtn svg {
+  width: 18px;
+  height: 18px;
+
+  fill:  rgb(255, 255, 255,.7);
+}
+
+.searchInput {
+  height: 100%;
+  flex-grow: 1;
+  
+}
+
+.searchInput input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+
+  font-size: 14px;
+
+  color: rgb(255, 255, 255,.7);
+}
+
+.searchInput input::placeholder {
+  color:  rgb(255, 255, 255,.7);
+}

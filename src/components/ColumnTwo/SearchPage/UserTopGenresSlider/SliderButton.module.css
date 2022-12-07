@@ -1,0 +1,39 @@
+.wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fff;
+
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.wrapper svg {
+  width: 24px;
+  height: 24px;
+
+  fill: #000;
+}
+
+.wrapper:hover {
+  width: 49px;
+  height: 49px;
+}
+
+.wrapper:hover svg {
+  width: 25px;
+  height: 25px;
+}
+
+.wrapper:active {
+  width: 47px;
+  height: 47px;
+}
+
+.wrapper:active svg {
+  width: 23px;
+  height: 23px;
+}
+

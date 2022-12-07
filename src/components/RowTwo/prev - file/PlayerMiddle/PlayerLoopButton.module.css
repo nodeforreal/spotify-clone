@@ -1,0 +1,31 @@
+.playerLoopButton{
+  position: relative;
+}
+
+.playerLoopButton svg{
+  width: 16px;
+  height: 16px;
+  fill: #b3b3b3;
+}
+
+.activeButton svg {
+  fill: #1ed760;
+}
+
+.activeButton::before {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #1ed760;
+
+  content: "";
+  
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.activeButton:hover svg {
+  fill: #1ed760;
+}

@@ -1,0 +1,35 @@
+.wrapper{
+  padding: 8px;
+  display: flex;
+  border-radius: 4px;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.wrapper:hover{
+  background-color: rgb(255,255,255,.1);
+}
+
+.byNestTitle{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.byNestTitle span{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fff;
+}
+
+.toggleWrapper{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.toggleBtn svg{
+ fill: rgb(255,255,255,.5);
+}

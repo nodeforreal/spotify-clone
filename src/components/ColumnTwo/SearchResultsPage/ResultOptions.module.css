@@ -1,0 +1,16 @@
+.wrapper{
+  height: var(--result-optionBar-height);
+  padding: 8px;
+  
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  column-gap: 16px;
+
+  position: sticky;
+  top: var(--topNavigationBar-height);
+  z-index: 5;
+
+  background-color: #121212;
+  /* background-color: #d45454; */
+}

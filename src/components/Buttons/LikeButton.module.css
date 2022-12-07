@@ -1,0 +1,30 @@
+.btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.beforeLike svg {
+  fill: #bababa;
+}
+
+.beforeLike:hover svg {
+  fill: #fff;
+}
+
+.btn:active svg{
+  fill: #bababa !important;
+}
+.afterLike{
+  display: grid !important;
+}
+
+.afterLike:hover svg {
+  fill: #1ed760 ;
+}
+
+.afterLike svg {
+  fill: #1ed760 ;
+}
+
+
+/* 17% - 10000 (x/100000)*17 */

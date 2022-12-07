@@ -1,0 +1,27 @@
+.wrapper{
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.title{
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  color: #fff;
+
+  position: relative;
+  z-index: 5;
+}
+
+.descBox{
+  margin-bottom: 16px;
+}
+
+/* sub 16px for */
+@media screen and (max-width: 1090px) {
+  .wrapper {
+    margin-left:  16px ;
+  }
+}

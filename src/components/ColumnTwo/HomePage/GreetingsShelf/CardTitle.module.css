@@ -1,0 +1,10 @@
+.text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  color: #fff;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

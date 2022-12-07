@@ -1,0 +1,31 @@
+.btn {
+  position: relative;
+}
+
+.btn svg {
+  width: 16px;
+  height: 16px;
+  fill: #bababa;
+}
+
+/* .btn svg {
+  fill: #1ed760;
+}
+
+.btn::after {
+  width: 4px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #1ed760;
+
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+
+.btn:hover svg {
+  fill: #fff;
+}

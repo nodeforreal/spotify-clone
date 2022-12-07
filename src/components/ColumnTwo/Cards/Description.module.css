@@ -1,0 +1,19 @@
+.wrapper{
+ 
+}
+
+.descEllipsis{
+  font-weight: 600;
+  color: #a7a7a7;
+
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.descText{
+   font-size: 14px;
+  font-weight: 400;
+  color: inherit;
+}

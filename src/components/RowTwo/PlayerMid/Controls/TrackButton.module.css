@@ -1,0 +1,9 @@
+.btn svg {
+  width: 14px;
+  height: 14px;
+  fill: #bababa;
+}
+
+.btn:hover svg {
+  fill: #fff;
+}

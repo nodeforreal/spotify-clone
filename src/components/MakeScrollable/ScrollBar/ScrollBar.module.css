@@ -1,0 +1,31 @@
+.track{
+    width: 16px;
+    height: 100%;
+    /* background-color: transparent; */
+    /* background-color: cornflowerblue; */
+
+    position: absolute;
+    right: 0;
+    z-index: 7;
+    user-select: none;
+}
+
+.thumb{
+    width: 12px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color: rgba(255, 255, 255, 0.4);
+    user-select: none;
+
+    z-index: 8;
+}
+
+.thumb:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.thumb:active{
+    background-color: rgba(255, 255, 255, 0.6);
+}

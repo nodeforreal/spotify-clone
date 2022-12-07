@@ -1,0 +1,19 @@
+.titleSec{
+  margin: 20px 0 8px;
+
+}
+
+.titleEllipsis{
+  color: #fff;
+  font-weight: 700;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.titleText{
+  font-size: 16px;
+  font-weight: 700;
+  color: inherit;
+}

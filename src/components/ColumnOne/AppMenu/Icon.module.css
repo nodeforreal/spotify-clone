@@ -1,0 +1,12 @@
+.wrapper svg{
+  width: 22px;
+  height: 22px;
+}
+
+.active{
+  fill: #fff;
+}
+
+.noActive{
+  fill: var(--menuHover);
+}

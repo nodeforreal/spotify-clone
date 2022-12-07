@@ -1,0 +1,14 @@
+#wrapper{
+  padding: 16px 14px;
+  background-color: #181818;
+
+  display: grid;
+  grid-template-columns: auto 560px 302px;
+  justify-content: space-between;
+
+  grid-area: row-2;
+}
+
+#player-right-wrapper{
+  width: 300px;
+}

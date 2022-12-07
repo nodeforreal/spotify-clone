@@ -1,0 +1,49 @@
+.wrapper{
+  font-weight: 600;
+  color: #a7a7a7;
+
+  position: relative;
+  z-index: 1;
+
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.descText {
+  font-size: 14px;
+  font-weight: 400;
+  color: inherit;
+}
+
+.dot{
+  display: inline-block;
+  margin: 2px 4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #a7a7a7;
+}
+.smallDot{
+  display: inline-block;
+  margin: 2px 4px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #a7a7a7;
+}
+
+.descText a{
+  font-size: 14px;
+  font-weight: 400;
+  color: inherit;
+}
+
+.descText a:hover{
+  text-decoration: underline;
+}
+
+.artistDesc{
+  margin-bottom: 16px;
+}

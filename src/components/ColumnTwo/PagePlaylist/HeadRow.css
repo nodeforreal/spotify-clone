@@ -1,0 +1,103 @@
+/* sectionOne */
+.create-playlist-sectionOne{
+  grid-template-columns: 16px 1.7fr 1.5fr 1fr 1fr 110px;
+}
+
+.playlist-sectionOne{
+  grid-template-columns: 16px 1.7fr 1.5fr 1fr 110px;
+}
+
+.daily-mix-sectionOne{
+  grid-template-columns: 16px 1.7fr 1.5fr  110px;
+}
+
+.album-sectionOne{
+  grid-template-columns: 16px 1.7fr 110px;
+}
+
+/* display: none; */
+/* playlists */
+.playlist-relDate{
+  display: none;
+}
+
+/* daily mix */
+.daily-mix-relDate{
+  display: none;
+}
+
+.daily-mix-dateAdded{
+  display: none;
+}
+
+/* album */
+.album-trackType{
+  display: none;
+}
+
+.album-relDate{
+  display: none;
+}
+
+.album-dateAdded{
+  display: none;
+}
+
+/* create playlist */
+@media screen and (max-width: 1286px) {
+  .create-playlist-dateAdded {
+    display: none;
+  }
+
+  .create-playlist-sectionOne {
+    grid-template-columns: 30px 1.7fr 1.5fr 1fr 100px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .create-playlist-relDate {
+    display: none;
+  }
+
+  .playlist-dateAdded{
+    display: none;
+  }
+
+  .playlist-sectionOne {
+    grid-template-columns: 30px 1.7fr 1fr 100px;
+  }
+  
+  .create-playlist-sectionOne {
+    grid-template-columns: 30px 1.7fr 1fr 100px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+
+}
+
+@media screen and (max-width: 760px) {
+  .playlist-sectionOne {
+    grid-template-columns: 30px 1fr 100px;
+  }
+
+  .playlist-trackType{
+    display: none;
+  }
+
+  .create-playlist-trackType {
+    display: none;
+  }
+
+  .create-playlist-sectionOne {
+    grid-template-columns: 30px 1fr 100px;
+  }
+
+  .daily-mix-trackType{
+    display: none;
+  }
+  .daily-mix-sectionOne{
+   grid-template-columns: 30px 1fr 100px;
+  }
+}

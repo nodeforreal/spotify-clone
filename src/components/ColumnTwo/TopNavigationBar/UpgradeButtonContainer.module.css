@@ -1,0 +1,27 @@
+@media screen and (max-width: 1020px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+
+.btn{
+  /* width: 86px;
+  height: 30px; */
+  padding:6px 12px;
+  border-radius: 26px;
+  border: 1px #b3b3b3 solid;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+
+  display: grid;
+  place-content: center;
+}
+
+.btn:hover{
+  border: 1px #fff solid;
+  background-color: #000000;
+  transform: scale(1.02);
+}

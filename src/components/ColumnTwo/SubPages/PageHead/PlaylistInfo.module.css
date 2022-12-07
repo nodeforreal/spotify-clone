@@ -1,0 +1,46 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.textWrapper{
+  display: flex;
+  align-items: center;
+}
+
+.creator{
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.creator:hover{
+  text-decoration: underline;
+}
+
+.others{
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.andMore{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.img{
+  margin: 0 4px;
+  width : 20px;
+  height : 20px ;
+  border-radius: 50%;
+}
+
+.dot{
+  margin: 0 4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+}

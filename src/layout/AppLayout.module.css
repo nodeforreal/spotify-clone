@@ -1,0 +1,20 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #121212;
+}
+
+#layout {
+  width: 100vw;
+  min-width: 760px;
+  height: 100vh;
+  min-height: 568px;
+
+  display: grid;
+  grid-template-columns: var(--col-one-width) minmax(0, 100%);
+  grid-template-rows: minmax(0, 100%) 93px;
+  grid-template-areas:
+    "col-1 col-2"
+    "row-2 row-2";
+}

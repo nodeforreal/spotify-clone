@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  height: var(--topNavigationBar-height);
+  padding: 0 var(--content-padding);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 6;
+}
+
+.sectionOne {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.sectionTwo {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+
+ 
+}
+

@@ -1,0 +1,29 @@
+.btn {
+  /* width: 148px; */
+  height: 48px;
+  padding: 12px 32px;
+  border-radius: 30px;
+  background-color: #1fdf64;
+
+  display: grid;
+  place-items: center;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+
+  pointer-events: all;
+}
+
+.btn a {
+  color: #000000;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:hover a {
+  text-decoration: underline #f0f8ff;
+}

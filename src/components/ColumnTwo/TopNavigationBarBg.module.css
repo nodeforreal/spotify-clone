@@ -1,0 +1,10 @@
+.wrapper{
+  width: 100%;
+  height: var(--topNavigationBar-height);
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 6;
+  background-color: cornflowerblue;
+}

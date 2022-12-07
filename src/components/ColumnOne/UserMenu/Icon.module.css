@@ -1,0 +1,24 @@
+.wrapper{
+  width: 24px;
+  height: 24px;
+  border-radius: 1px;
+  background-color: #fff;
+  
+  display: grid;
+  place-content: center;
+
+  
+}
+.wrapper svg{
+  width: 12px;
+  height: 12px;
+}
+
+/* .active{
+  fill: #fff;
+} */
+
+.noActive{
+  /* fill: var(--menuHover); */
+  filter: var(--menuIconBg);
+}

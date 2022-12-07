@@ -1,0 +1,14 @@
+.wrapper{
+  position: relative;
+}
+
+.scrollWrapper{
+  display: flex;
+  column-gap: 24px;
+  overflow-X: auto;
+}
+
+
+.rightBtn{
+  left: 100%;
+}

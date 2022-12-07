@@ -1,0 +1,5 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(var(--column-counts),minmax(0,1fr));
+    column-gap: 24px;
+}

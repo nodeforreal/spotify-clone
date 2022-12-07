@@ -1,0 +1,35 @@
+.queueButton{
+  position: relative;
+}
+
+.queueButton svg {
+  width: 16px;
+  height: 16px;
+  fill: #b1b1b1;
+}
+
+.queueButton:hover svg{
+  fill: #fff;
+}
+
+
+.activeButton svg {
+  fill: #1ed760;
+}
+
+.activeButton::before {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #1ed760;
+
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.activeButton:hover svg {
+  fill: #1ed760;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: normal;
+}
+
+.active{
+    color: #fff;
+}
+
+.noActive{
+    color: var(--menuHover);
+}

@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  height: var(--col-one_track-image_height);
+
+  position: relative;
+ 
+  transition: height 0.1s linear;
+}
+
+.wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.toggleBtn {
+  display: none;
+}
+
+.wrapper:hover .toggleBtn {
+  display: var(--col-one_collapse_display);
+}

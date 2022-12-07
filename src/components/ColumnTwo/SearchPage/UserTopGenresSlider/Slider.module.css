@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  column-gap: 24px;
+
+  overflow-y: scroll;
+}

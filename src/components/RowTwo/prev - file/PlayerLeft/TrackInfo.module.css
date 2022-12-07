@@ -1,0 +1,39 @@
+.trackInfoWrapper{
+  width: 155px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  column-gap: 3px;
+
+  overflow: hidden;
+}
+.rowTwo{
+  color: var(--text-secondary);
+}
+.trackTitle{
+  color: var(--text-primary);
+  
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+
+.trackAuthor{
+  color: var(--text-secondary);
+  
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.trackTitle:hover{
+  text-decoration: underline;
+}
+.trackAuthor:hover{
+  color: var(--text-primary);
+  text-decoration: underline;
+}

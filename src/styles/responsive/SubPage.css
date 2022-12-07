@@ -1,0 +1,11 @@
+@media screen and (max-width: 960px) {
+  :root {
+    --sub-page-head-image-size: 192px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  :root {
+    --sub-page-head-image-size: 232px;
+  }
+}

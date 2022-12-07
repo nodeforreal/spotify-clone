@@ -1,0 +1,36 @@
+#wrapper {
+  padding: 24px 0px 0 24px;
+  background: var(--bg-col-one);
+
+  display: grid;
+  grid-template-rows: auto minmax(0,1fr) ;
+  grid-area: col-1;
+
+  position: relative;
+}
+
+.rowOne{
+  display: flex;
+  flex-direction: column;
+}
+
+.rowTwo{
+  padding-bottom: 48px;
+}
+
+.expandableWrapper{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #000000;
+}
+
+/* class name need for scroll uniqueness */
+.scrollWrapper{
+
+}
+
+.contentWrapper{
+
+}

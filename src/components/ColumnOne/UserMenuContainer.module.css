@@ -1,0 +1,11 @@
+.wrapper{
+    padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.line{
+    border: 0;
+    border-bottom: .1px solid #282828;
+}

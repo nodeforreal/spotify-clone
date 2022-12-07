@@ -1,0 +1,11 @@
+
+.btn svg{
+  fill: #b7b1b1;
+}
+.btn:active svg{
+  fill: #b7b1b1 !important;
+}
+
+.btn:hover svg{
+  fill: #fff;
+}

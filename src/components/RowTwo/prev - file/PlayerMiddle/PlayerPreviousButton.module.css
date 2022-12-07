@@ -1,0 +1,12 @@
+/* .playerPreviousButton{
+
+} */
+
+.playerPreviousButton svg{
+  fill: #b3b3b3;
+}
+
+.playerPreviousButton:hover svg{
+  fill: #fff;
+  
+}

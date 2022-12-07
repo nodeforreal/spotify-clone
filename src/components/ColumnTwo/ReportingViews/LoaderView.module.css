@@ -1,0 +1,43 @@
+.wrapper {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+/* .dot{
+  width: 8px;
+  height: 8px;
+  background-color: rgb(255, 255, 255,.8);
+  border-radius: 50%;
+} */
+
+.loader {
+  position: relative;
+  left: -8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  box-shadow: 10px 0 0 -0.1px rgba(255,255,255,0.7), 25px 0 0 -0.1px rgba(255,255,255,0.7), 40px 0 0 -0.1px rgba(255,255,255,0.7);
+  animation: typingDot 2s infinite 2s;
+}
+
+@keyframes typingDot {
+  0% {
+    box-shadow: 10px 0 0 -0.1px rgba(255,255,255,0.7), 25px 0 0 -0.1px rgba(255,255,255,0.7), 40px 0 0 -0.1px rgba(255,255,255,0.7);
+  }
+  25% {
+    box-shadow: 10px -10px 0 -0.1px rgba(255,255,255,0.7), 25px 0 0 -0.1px rgba(255,255,255,0.7), 40px 0 0 -0.1px rgba(255,255,255,0.7);
+  }
+  50% {
+    box-shadow: 10px 0 0 -0.1px rgba(255,255,255,0.7), 25px -10px 0 -0.1px rgba(255,255,255,0.7), 40px 0 0 -0.1px rgba(255,255,255,0.7);
+  }
+  75% {
+    box-shadow: 10px 0 0 -0.1px rgba(255,255,255,0.7), 25px 0 0 -0.1px rgba(255,255,255,0.7), 40px -10px 0 -0.1px rgba(255,255,255,0.7);
+  }
+  100% {
+    box-shadow: 10px 0 0 -0.1px rgba(255,255,255,0.7), 25px 0 0 -0.1px rgba(255,255,255,0.7), 40px 0 0 -0.1px rgba(255,255,255,0.7);
+  }
+}

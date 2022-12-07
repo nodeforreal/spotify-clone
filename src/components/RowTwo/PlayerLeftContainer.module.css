@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 28px;
+}
+
+.rowOne {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.rowTwo {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.likeBtn{
+  width: 16px;
+  height: 16px;
+}

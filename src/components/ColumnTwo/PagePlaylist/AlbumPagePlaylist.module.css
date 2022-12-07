@@ -1,0 +1,38 @@
+.wrapper{
+  margin-bottom: 38px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 30px minmax(0,1fr) 100px;
+  column-gap: 16px;
+} 
+
+.trackType{
+  display: none;
+}
+
+.dateAdded{
+  display: none;
+}
+
+.relDate{
+  display: none;
+}
+
+.copyWrite{
+  margin-top: 38px;
+  color: #b3b3b3;
+  margin: 36px var(--content-padding) 56px;
+}
+
+.p1{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.p2{
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+}

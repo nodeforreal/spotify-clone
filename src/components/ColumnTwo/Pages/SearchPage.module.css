@@ -1,0 +1,8 @@
+.wrapper{
+  max-width: var(--content-width);
+  padding: var(--topNavigationBar-height) var(--content-padding) 0;
+}
+
+.lineClass{
+  margin: 100px 0 80px;
+}

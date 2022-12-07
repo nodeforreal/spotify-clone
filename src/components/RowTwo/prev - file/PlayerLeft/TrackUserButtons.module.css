@@ -1,0 +1,22 @@
+.trackUserButtons{
+  display: flex;
+  column-gap: 16px;
+}
+.userLikeButton .userLike svg{
+  fill: #b3b3b3;
+}
+.userLikeButton .userLiked svg{
+  width: 16px;
+  height: 16px;
+  fill: #1ed760;
+}
+.userPInPButton svg{
+  fill: #b3b3b3;
+}
+
+.userLikeButton:hover .userLike svg{
+  fill: #fff;
+}
+.userPInPButton:hover svg{
+  fill: #fff;
+}

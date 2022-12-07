@@ -1,0 +1,48 @@
+.wrapper{
+  display: grid;
+  place-items: center;
+}
+
+.indexNumber{
+  display: var(--indexNumber-hover);
+  font-size: 14px;
+  font-weight: 400;
+  color: #b3b3b3;
+
+  position: relative;
+  z-index: 1;
+}
+
+.coverIcon{
+  display: var(--coverIcon-hover);
+  width: 16px;
+  height: 16px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.coverIcon svg{
+  width: 1em;
+  height: 1em;
+  fill: #b3b3b3;
+}
+
+.playBtn{
+  display: var(--playBtn-hover);
+  width: 16px;
+  height: 16px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.playBtn svg{
+  width: 1em;
+  height: 1em;
+  fill: #fff;
+}
+
+.playBtn:hover{
+  transform: scale(1);
+}

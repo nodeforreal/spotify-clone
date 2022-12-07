@@ -1,0 +1,19 @@
+.tagsWrapper{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tagNav{
+  padding: 6px 12px;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 16px;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.tagNav:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.text {
+  margin-top: -12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a7a7a7;
+
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  position: relative;
+  z-index: 0;
+}

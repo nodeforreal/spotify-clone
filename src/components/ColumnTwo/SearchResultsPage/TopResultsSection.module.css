@@ -1,0 +1,40 @@
+.wrapper{
+  margin-top: 24px;
+  margin-bottom: 44px;
+  max-width: var(--content-width);
+  padding:0 var(--content-padding);
+  display: grid;
+  grid-template-columns: repeat(var(--column-counts),minmax(0,1fr));
+  column-gap: 24px;
+}
+
+.secLeft{
+  grid-column: 1/3;
+}
+.secRight{
+  grid-column: 3/10;
+}
+
+.title{
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  color: #fff;
+}
+
+@media screen and (max-width:1090px) {
+  .wrapper{
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    }
+
+  .secLeft{
+    width: min(410px,100%);
+    grid-column: auto;
+  }
+  .secRight{
+    grid-column: auto;
+  }
+  
+}

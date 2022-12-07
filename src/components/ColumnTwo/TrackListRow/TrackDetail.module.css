@@ -1,0 +1,18 @@
+.text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #a7a7a7;
+  
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  position: relative;
+  z-index: 1;
+}
+
+.hoverText{
+  color: var(--trackList-text-hover) ;
+}

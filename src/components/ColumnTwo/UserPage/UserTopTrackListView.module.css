@@ -1,0 +1,8 @@
+.wrapper{
+  margin-top: var(--topNavigationBar-height);
+  margin-bottom: 38px;
+}
+
+.sectionName{
+  margin: 0 var(--content-padding);
+}

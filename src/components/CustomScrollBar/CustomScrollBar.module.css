@@ -1,0 +1,27 @@
+.track {
+  width: 15px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.thumb {
+  width: 13px;
+  background-color: #4d4d4d;
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1000;
+  transform: translateX(-50%);
+}
+
+.thumb:active {
+  background-color: #c0c0c0;
+}
+
+.thumb:hover {
+  background-color: #c0c0c0;
+}

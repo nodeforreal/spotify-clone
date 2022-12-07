@@ -1,0 +1,14 @@
+.title{
+  margin-bottom: 8px;
+  font-size: min(5.5vw,96px);
+  font-weight: 900;
+  /* line-height:  min(5.5vw+10px,96px+10px); */
+  letter-spacing: -2.88px;
+  color: #fff;
+
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

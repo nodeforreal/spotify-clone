@@ -1,0 +1,8 @@
+.pageBody {
+  margin:0 var(--content-padding);
+
+}
+
+.bottomLine{
+  margin: 100px 0 80px;
+}

@@ -1,0 +1,19 @@
+.wrapper{
+ 
+}
+
+.headWrapper{
+  --head-bg-color:  #056952;
+}
+
+.headImageWrapper {
+  border-radius: 6px;
+  display: grid;
+  place-items: center;
+}
+
+.headImageWrapper svg {
+  width: 64px;
+  height: 64px;
+  fill: #1ed760;
+}

@@ -1,0 +1,4 @@
+#wrapper {
+  position: relative;
+  grid-area: col-2;
+}

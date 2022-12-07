@@ -1,0 +1,18 @@
+.text {
+  max-width: 110px;
+
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1020px) {
+  .text {
+    display: none;
+  }
+}

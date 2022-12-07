@@ -1,0 +1,35 @@
+.center{
+  margin-top: var(--topNavigationBar-height) 38px;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+.wrapper{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.imgWrapper{
+  max-width: 630px;
+}
+
+.imgWrapper img{
+  width: 100%;
+  height: 100%;
+}
+
+.titleSection{
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.title{
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -1.28px;
+  color: #fff;
+}
+

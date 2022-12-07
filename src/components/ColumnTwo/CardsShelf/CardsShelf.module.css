@@ -1,0 +1,13 @@
+.wrapper{
+  max-width: var(--content-width);
+  margin: 0 var(--content-padding);
+  position: relative;
+  z-index: 4;
+}
+
+.shelfWrapper{
+  display: grid;
+  grid-template-columns: repeat(var(--column-counts),minmax(0,1fr));
+  column-gap: 24px;
+}
+

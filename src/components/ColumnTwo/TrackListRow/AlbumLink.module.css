@@ -1,0 +1,21 @@
+.albumNavLink{
+  margin-left: 16px;
+}
+
+.albumNavLink a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--trackList-text-hover);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  position: relative;
+  z-index: 1;
+}
+
+.albumNavLink a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

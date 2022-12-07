@@ -1,0 +1,12 @@
+.sectionTop{
+  margin-top: var(--topNavigationBar-height) ;
+  margin-bottom: 24px;
+}
+
+.sectionBottom{
+  margin-top: 24px;
+}
+
+.episodeSectionTitle{
+  margin: 0 var(--content-padding) 21px;
+}

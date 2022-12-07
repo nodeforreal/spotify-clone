@@ -1,0 +1,48 @@
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper svg {
+  width: 16px;
+  height: 16px;
+}
+
+.likeBtnWrapper{
+  width: 16px;
+  height: 16px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.optionBtnWrapper{
+  width: 20px;
+  height: 20px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.likeBtn{
+  display: var(--likeBtn-hover);
+}
+
+.durationTime{
+  font-size: 14px;
+  font-weight: 400;
+  color: #b3b3b3;
+  
+  position: relative;
+  z-index: 1;
+}
+
+.optionBtn{
+  display: var(--optionBtn-hover);
+}
+
+.optionBtn svg{
+  width: 21px;
+  height: 21px;
+}

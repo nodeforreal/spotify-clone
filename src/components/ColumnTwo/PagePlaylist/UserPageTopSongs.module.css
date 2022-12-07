@@ -1,0 +1,18 @@
+.grid{
+  grid-template-columns: 30px 2fr 1fr 100px;
+}
+
+.titleWrapper{
+  max-width: var(--content-width);
+  margin: 32px var(--content-padding) 16px;
+}
+
+@media screen and (max-width: 860px) {
+  .albumLink {
+    display: none ;
+  }
+
+  .grid {
+    grid-template-columns: 30px 1fr 100px ;
+  }
+}

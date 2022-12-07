@@ -1,0 +1,113 @@
+.wrapper {
+  height: 38px;
+  margin-bottom: 16px;
+  max-width: var(--content-width);
+  margin: 0 var(--content-padding);
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: center;
+
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #b3b3b3;
+}
+
+.stickyTopBarWrapper {
+  margin: 0;
+  position: sticky;
+  top: var(--topNavigationBar-height);
+  background-color: #181818;
+}
+
+.stickyTopBar {
+  margin: 0 16px !important;
+  padding: 0 var(--content-padding) !important;
+}
+
+.sectionOne {
+  padding: 0 16px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.sectionTwo hr {
+  width: 100%;
+}
+
+.wrapper div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.index {
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.trackType {
+  margin-left: 16px;
+}
+
+.duration {
+  display: grid;
+  place-content: center;
+}
+.duration svg {
+  width: 16px;
+  height: 16px;
+  fill: #b3b3b3;
+}
+
+.create-playlist-sectionOne {
+  grid-template-columns: 16px 1.7fr 1.5fr 1fr 1fr 110px;
+}
+
+.playlists-sectionOne {
+  grid-template-columns: 16px 1.7fr 1.5fr 1fr 110px;
+}
+
+.daily-mix-sectionOne {
+  grid-template-columns: 16px 1.7fr 1.5fr 110px;
+}
+
+.album-sectionOne {
+  grid-template-columns: 16px 1.7fr 110px;
+}
+
+/* display: none; */
+/* playlists */
+.playlists-relDate {
+  display: none;
+}
+
+/* daily mix */
+.daily-mix-relDate {
+  display: none;
+}
+
+.daily-mix-dateAdded {
+  display: none;
+}
+
+/* album */
+.album-trackType {
+  display: none;
+}
+
+.album-relDate {
+  display: none;
+}
+
+.album-dateAdded {
+  display: none;
+}

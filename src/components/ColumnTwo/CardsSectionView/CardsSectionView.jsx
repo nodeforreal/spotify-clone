@@ -1,0 +1,24 @@
+import React from "react";
+
+import Card from "../Cards/Card";
+import styles from "./CardsSectionView.module.css";
+
+const data = [
+  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+  22, 23, 24, 25, 26, 27, 28, 29, 30,
+];
+
+const CardsSectionView = ({ wrapperClass,sectionTitle }) => {
+  return (
+    <div className={`${styles.wrapper} ${wrapperClass}`}>
+      <h1 className={styles.title}>{sectionTitle}</h1>
+      <div className={styles.cardsWrapper}>
+        {data.map((item, index) => (
+          <Card key={index} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default React.memo(CardsSectionView);

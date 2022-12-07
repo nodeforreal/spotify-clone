@@ -1,0 +1,34 @@
+.wrapper {
+  padding: 16px 16px 18px 16px;
+  border-radius: 4px;
+  background-color: #181818;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+
+  position: relative;
+
+  --display-playBTn: none;
+}
+
+.wrapper:hover {
+  background-color: #282828;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  z-index: 1;
+
+ 
+}
+
+.wrapper:hover {
+  --display-playBTn: grid;
+}

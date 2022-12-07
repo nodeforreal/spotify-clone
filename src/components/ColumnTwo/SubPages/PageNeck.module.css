@@ -1,0 +1,48 @@
+.wrapper{
+  height: 104px;
+  display: flex;
+  padding: var(--content-padding);
+
+  align-items: center;
+  column-gap: 28px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.sectionOne{
+  display: flex;
+  align-items: center;
+  column-gap:32px ;
+}
+
+.likeBtn{
+  width:30px;
+  height: 28px;
+}
+
+.likeBtn svg{
+  width:30px;
+  height: 28px;
+}
+
+
+.playBtn {
+  width: 56px;
+  height: 56px;
+  background-color: #1ccd5b;
+}
+
+.playBtn svg {
+  height: 22px;
+  width: 22px;
+}
+
+.playBtn:hover {
+  background-color: #1fdf64;
+}
+
+.optionBtn{
+  height: 4px;
+  width: 24px;
+}

@@ -1,0 +1,17 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 18px;
+}
+
+.playBtn{
+  height: 48px;
+  width: 48px;
+  background-color: #1ed760;
+}
+
+.playBtn svg{
+  height: 20px;
+  width: 20px;
+}

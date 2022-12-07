@@ -1,0 +1,64 @@
+.wrapper{
+  height: 32px;
+  padding: 0 8px 0 2px;
+  border-radius: 16px;
+  background:#181818;
+
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  position: relative;
+}
+.wrapper:hover{
+  cursor: pointer;
+  background: #303030;
+}
+.active{
+  background: #282828;
+}
+.userAvatar{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #535353;
+
+  display: grid;
+  place-content: center;
+
+  user-select: none;
+}
+.userAvatar svg{
+  fill: #fff;
+}
+.userName{
+  max-width: 100px;
+
+  font-size: 13.33px;
+  font-weight:700;
+  color: var(--text-primary);
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropDownArrow{
+  display: grid;
+  place-content: center;
+  fill: #fff;
+}
+
+
+/* media queries for hide user name and arrow*/
+@media screen and (max-width:863px){
+  .wrapper{
+    padding: 0 2px 0 2px;
+  }
+  .userName{
+    display: none;
+  }
+  .dropDownArrow{
+    display: none;
+  }
+}

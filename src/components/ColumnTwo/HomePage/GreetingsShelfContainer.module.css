@@ -1,0 +1,12 @@
+
+.wrapper {
+  width: 100%;
+}
+
+.shelfWrapper{
+  max-width: var(--content-width);
+  padding: var(--topNavigationBar-height) var(--content-padding) 48px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}

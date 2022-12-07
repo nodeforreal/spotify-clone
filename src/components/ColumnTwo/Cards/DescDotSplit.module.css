@@ -1,0 +1,38 @@
+.wrapper {
+  font-weight: 600;
+  color: #a7a7a7;
+
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.withDot::before {
+  margin: 2px 4px;
+
+  border-radius: 50%;
+  background-color: #a7a7a7;
+
+  content: "";
+  display: inline-block;
+}
+
+.albumDot::before {
+  width: 4px;
+  height: 4px;
+}
+
+.episodeDot::before {
+  width: 2px;
+  height: 2px;
+}
+
+.albumDescText {
+  font-size: 14px !important;
+}
+
+.descText {
+  font-weight: 400;
+  color: inherit;
+}

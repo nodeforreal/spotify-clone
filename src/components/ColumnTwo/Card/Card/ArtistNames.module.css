@@ -1,0 +1,30 @@
+.wrapper{
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #cabefa;
+  font-weight: 700;
+
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: #d0c6fa;
+}
+
+.artistName{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+.trackName{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #cabefa;
+}

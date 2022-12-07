@@ -1,0 +1,20 @@
+.wrapper {
+  color: #a7a7a7;
+  word-spacing: -1px;
+
+  white-space: nowrap;
+}
+
+.text {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #b3b3b3;
+
+  white-space: nowrap;
+}
+
+.text:hover {
+  text-decoration: underline;
+  color: #fff;
+}

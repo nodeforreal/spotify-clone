@@ -1,0 +1,6 @@
+.wrapper{
+  padding: 0 calc(var(--content-padding) - 16px);
+  max-width: 935px;
+  position: relative;
+  z-index: 1;
+}

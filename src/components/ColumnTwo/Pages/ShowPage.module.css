@@ -1,0 +1,30 @@
+.pageBody {
+  margin: 0 var(--content-padding) 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 374px);
+  column-gap: 16px;
+  justify-content: flex-start;
+}
+
+.aboutSection{
+  margin-bottom: 16px;
+}
+
+
+/* media  from esther */
+@media screen and (max-width: 1090px) {
+  .pageBody {
+    margin: 0 var(--content-padding) 0 calc(var(--content-padding) - 16px);
+    display: flex;
+    flex-direction: column;
+  }
+  .episodeSection{
+    order: 2;
+  }
+  .aboutSection{
+    order: 1;
+  }
+  .bottomLine{
+    order: 3;
+  }
+}

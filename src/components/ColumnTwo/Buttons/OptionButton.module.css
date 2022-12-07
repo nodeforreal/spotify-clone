@@ -1,0 +1,11 @@
+.btn{
+  display: grid;
+  place-items: center;
+}
+.btn svg{
+  fill: #b7b1b1;
+}
+
+.btn:hover svg{
+  fill: #fff;
+}
