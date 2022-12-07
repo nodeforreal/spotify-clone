@@ -1,9 +1,0 @@
-.devicesButton svg{
-  width: 16px;
-  height: 16px;
-  fill: #b1b1b1;
-}
-
-.devicesButton:hover svg{
-  fill: #fff;
-}
