@@ -6,11 +6,11 @@ import styles from "./PlaylistInfo.module.css";
 let data = [
   {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS15ItPfseut13T4kDqanqgKO63KiaCLDJZPw&usqp=CAU",
-    name: "kaliyamoothy",
+    name: "kaliyamoorthy",
     path: "/profile",
   },
   {
-    name: "Rachel",
+    name: "event emmiter",
     path: "/artist",
   },
   {
