@@ -15,7 +15,7 @@ const Cards = ({ cardList }) => {
           <Card
             key={index}
             image={
-              "https://i.pinimg.com/564x/c4/ec/be/c4ecbe7c4c030379e886e5552a7f4ba9.jpg"
+              "https://www.imgonline.com.ua/examples/random-pixels-big.png"
             }
             title={"title-" + index}
           />
