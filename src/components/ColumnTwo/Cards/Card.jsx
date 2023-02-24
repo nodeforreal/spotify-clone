@@ -9,7 +9,7 @@ import DescLinks from "./DescLinks";
 import styles from "./Card.module.css";
 
 let img =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx4Ej3sddJTqtqN48tLwfcukxY-e70Aev4Dw&usqp=CAU";
+  "https://media.istockphoto.com/id/1140180560/photo/colored-powder-explosion-on-black-background.jpg?s=612x612&w=0&k=20&c=gH_tj4MVWr0226qcq_uJ4nxfLTKG-7T29rtUklT4Obk=";
 
 const Card = ({ cardType,isPlaying }) => {
   console.log("card");
